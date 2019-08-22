@@ -15,7 +15,8 @@ Extract rcssserver file:
 > tar -zxpf rcssserver-x.x.x.tar.gz
 
 Configure and compile rcssserver:
-> cd rcssserver-x.x.x  
+> cd rcssserver-x.x.x
+> ./bootstrap
 > ./configure && make  
 > sudo make install
 
